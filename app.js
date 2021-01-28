@@ -12,6 +12,21 @@ form.addEventListener('submit', e => {
         }
     })
     //show result on page
+    scrollTo(0,0)
     result.querySelector("span").textContent = `${score}%`
     result.classList.remove('d-none')
+
 })
+
+//window object (global object)
+
+//console.log('hi')
+// console.log(document.querySelector('form'))
+// console.log(window.document.querySelector('form'))
+
+//alert('hey!')
+//window.alert('hi!')
+
+// setTimeout(()=>{
+//     console.log('new job!')
+// },2000)
